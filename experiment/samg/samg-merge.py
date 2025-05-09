@@ -75,9 +75,6 @@ def iterative_sample_allocation(restored_mean, restored_variance, total_budget, 
 
 
 def update_group_names(N2, merge_info, group_attribute):
-    """
-    根据合并信息更新N2中的分组名称
-    """
     if not merge_info:
         return N2
 
